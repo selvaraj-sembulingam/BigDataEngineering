@@ -1,4 +1,4 @@
-Getting Started with Hadoop MapReduce in Python
+# Getting Started with Hadoop MapReduce in Python
 
 
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
