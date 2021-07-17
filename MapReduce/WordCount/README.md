@@ -17,8 +17,8 @@ hdfs dfs -ls /user/root/wcoutput
 ```
 
 `Found 2 items` <br />
-`-rw-r--r--   1 root hdfs          0 2021-07-13 13:44 /user/root/wcoutputnewselva2/_SUCCESS` <br />
-`-rw-r--r--   1 root hdfs         58 2021-07-13 13:44 /user/root/wcoutputnewselva2/part-00000` <br />
+`-rw-r--r--   1 root hdfs          0 2021-07-13 13:44 /user/root/wcoutput/_SUCCESS` <br />
+`-rw-r--r--   1 root hdfs         58 2021-07-13 13:44 /user/root/wcoutput/part-00000` <br />
 
 
 ### To View the Output
