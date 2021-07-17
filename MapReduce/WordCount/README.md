@@ -1,5 +1,16 @@
 # Getting Started with Hadoop MapReduce in Python
 
+###
+
+### Creating the required Required Files
+Create a file in the local named `word_count_data.txt` with the content in which we are going to apply MapReduce to find the word count.
+Keep the Files `mapper.py` and `reducer.py` in the current working directory. 
+
+### Copying the Files to HDFS
+```
+hdfs dfs -put word_count_data.txt ????
+```
+
 ### Running the MapReduce job
 ```
 hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
