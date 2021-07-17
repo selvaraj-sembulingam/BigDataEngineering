@@ -10,9 +10,9 @@ hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
 -file /root/code/reducer.py
 ```
 
-```
+`
 hdfs dfs -ls /user/root/wcoutput
-```
+`
 
 ```
 hdfs dfs -cat  /user/root/wcoutput/part-00000
