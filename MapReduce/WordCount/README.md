@@ -1,7 +1,7 @@
 # Getting Started with Hadoop MapReduce in Python
 
 
-### Creating the required Required Files
+### Creating the Required Files
 1. Create a file in the local named `word_count_data.txt` using ```vi word_count_data.txt```  
 2. Enter the contents into the file to which we are going to apply MapReduce to find the word count.
 3. Keep the Files `mapper.py` and `reducer.py` in the current working directory. 
