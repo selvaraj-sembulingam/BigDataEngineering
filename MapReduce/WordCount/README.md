@@ -1,4 +1,21 @@
-# Getting Started with Hadoop MapReduce in Python
+# MapReduce Code to Find the WordCount
+
+### Input
+```
+the quick brown fox jumped over lazy dogs quick dogs jumped jumped
+```
+
+### Expected Output
+```
+brown   1
+dogs    2
+fox     1
+jumped  3
+lazy    1
+over    1
+quick   2
+the     1
+```
 
 
 ### Creating the Required Files
@@ -35,4 +52,17 @@ hdfs dfs -ls /user/root/wcoutput
 ### To View the Output
 ```
 hdfs dfs -cat  /user/root/wcoutput/part-00000
+```
+
+### Output
+
+```
+brown   1
+dogs    2
+fox     1
+jumped  3
+lazy    1
+over    1
+quick   2
+the     1
 ```
