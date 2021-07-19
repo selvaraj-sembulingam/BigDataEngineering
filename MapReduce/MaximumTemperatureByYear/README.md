@@ -2,7 +2,7 @@
 
 ### Input Data
 
-The input data contains Date(dd/mm/yyyy), ID, and Temperature
+The input data contains Date (dd/mm/yyyy), ID, and Temperature
 ```
 10-01-1990,123112,10
 14-02-1991,283901,11
