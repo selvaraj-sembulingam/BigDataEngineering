@@ -55,9 +55,9 @@ hadoop jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \
 hdfs dfs -ls /user/root/maxTempOutput
 ```
 
-`Found 2 items`
-`-rw-r--r--   1 root hdfs          0 2021-07-19 16:27 /user/root/maxTempOutput/_SUCCESS`
-`-rw-r--r--   1 root hdfs         16 2021-07-19 16:27 /user/root/maxTempOutput/part-00000`
+`Found 2 items`<br/>
+`-rw-r--r--   1 root hdfs          0 2021-07-19 16:27 /user/root/maxTempOutput/_SUCCESS`<br/>
+`-rw-r--r--   1 root hdfs         16 2021-07-19 16:27 /user/root/maxTempOutput/part-00000`<br/>
 
 ### To View the Output
 ```hdfs dfs -cat /user/root/maxTempOutput/part-00000```
