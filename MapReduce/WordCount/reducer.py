@@ -11,7 +11,7 @@ word = None
 for line in sys.stdin:
 	# remove leading and trailing whitespace
 	line = line.strip()
-	# slpiting the data on the basis of tab we have provided in mapper.py
+	# spliting the data on the basis of tab we have provided in mapper.py
 	word, count = line.split('\t', 1)
 	# convert count (currently a string) to int
 	try:
