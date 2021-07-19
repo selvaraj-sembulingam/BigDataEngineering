@@ -36,7 +36,7 @@ cd maxTemp
 
 ### Copying the Files to HDFS
 ```
-hdfs dfs -put word_count_data.txt /user/root/
+hdfs dfs -put maxTemp.txt /user/root/
 ```
 
 ### Running the MapReduce job
@@ -60,7 +60,7 @@ hdfs dfs -ls /user/root/maxTempOutput
 `-rw-r--r--   1 root hdfs         16 2021-07-19 16:27 /user/root/maxTempOutput/part-00000`
 
 ### To View the Output
-```hdfs dfs -cat /user/root/maxTempOutput6/part-00000```
+```hdfs dfs -cat /user/root/maxTempOutput/part-00000```
 
 ### Output
 
